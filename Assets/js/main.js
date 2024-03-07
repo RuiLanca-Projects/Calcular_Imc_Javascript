@@ -5,6 +5,11 @@ form.addEventListener('submit', function(event){
     const inputPeso = event.target.querySelector('#peso').value;
     const inputAltura = event.target.querySelector('#altura').value;
 
+    if(inputPeso.split('.').length > 2 || inputAltura.split('.').length > 2){
+        alert('Por favor insira um valor válido!!!.');
+        return;
+    }
+
     const peso = Number(inputPeso);
     const altura = Number(inputAltura); 
 
