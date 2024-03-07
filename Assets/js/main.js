@@ -20,11 +20,11 @@ form.addEventListener('submit', function(event){
     resultado.style.display="block";
     
 
-    if (isNaN(peso) || peso < 0 || peso > 200){
+    if (isNaN(peso) || peso <= 0 || peso > 200){
         resultado.innerHTML='Peso inválido';
         resultado.classList.add('bg-color-red');
     }
-    if (isNaN(altura) || altura < 0 || altura > 2.5){
+    if (isNaN(altura) || altura <= 0 || altura > 2.5){
         resultado.innerHTML='Altura inválida';
         resultado.classList.add('bg-color-red');
     }
