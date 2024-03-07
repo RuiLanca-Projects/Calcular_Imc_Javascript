@@ -76,3 +76,4 @@ function limpar(){
     x.classList = "";
 }
 
+
