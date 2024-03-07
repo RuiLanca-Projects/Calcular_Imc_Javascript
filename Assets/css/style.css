@@ -56,8 +56,8 @@ form input:focus{
 
 form button{
     border: none;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: gainsboro;
+    color: rgb(99, 88, 88);
     font-size: 18px;
     margin-bottom: 30px;
     height: 50px;
@@ -77,7 +77,7 @@ form button:hover{
     width: 50%;
     color: white;
     font-size: 1.5rem;
-    
+    border-radius: 5px;
     padding: 10px;
 }
 
